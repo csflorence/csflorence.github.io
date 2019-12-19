@@ -1,0 +1,129 @@
+---
+---
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, 
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, 
+i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, 
+embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, 
+section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "myriad-pro", sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  font-size: 17px;
+  font-weight: 400;
+  color: #0f0f0f;
+  line-height: 27px;
+}
+
+.column-medium {
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.page-content {
+  padding: 100px 20px 100px 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+nav .right {
+  display: flex;
+  align-items: center;
+  margin: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0f0f0f;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.004em;
+  border: 1px solid #0f0f0f;
+  border-radius: 4px;
+  transition: all 0.1s ease;
+  padding: 10px 15px;
+  margin: 0 10px;
+
+  &:visited {
+    color: #0f0f0f;
+  }
+
+  &:hover {
+    color: white;
+    background: #0f0f0f;
+  }
+}
+
+a, a:visited {
+  color: #0f0f0f;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: -0.016em;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+time {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.004em;
+}
+
+.cs-brand-link {
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+
+  &:hover {
+    color: #0f0f0f;
+    transform: scale(1);
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  .cs-brand {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 70px;
+      width: 70px;
+    }
+  }
+}
+
